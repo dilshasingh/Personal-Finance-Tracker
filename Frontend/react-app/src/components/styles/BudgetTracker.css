@@ -1,0 +1,97 @@
+/* .budget-tracker {
+    background-color: #fff;
+    padding: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    margin-bottom: 1.5rem;
+  }
+  
+  .budget-tracker input {
+    margin: 0.3rem 0.5rem 0.3rem 0;
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .budget-tracker button {
+    padding: 0.5rem 1rem;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .budget-tracker button:hover {
+    background-color: #27ae60;
+  }
+  
+  .budget-tracker strong {
+    display: block;
+    margin-top: 0.5rem;
+  }
+   */
+
+   .budget-tracker {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .budget-tracker h3 {
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .budget-form {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .budget-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--gray);
+  }
+  
+  .budget-form input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .budget-form button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    align-self: flex-end;
+  }
+  
+  .budget-form button:hover {
+    background: var(--secondary);
+  }
+  
+  .budget-summary {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .budget-summary p {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .budget-summary strong {
+    color: var(--primary);
+  }

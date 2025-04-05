@@ -1,0 +1,29 @@
+.nav-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .nav-button {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .nav-button:hover {
+    background: var(--secondary);
+  }
+  
+  .back-button {
+    background: var(--gray);
+  }
+  
+  .back-button:hover {
+    background: #5a6268;
+  }

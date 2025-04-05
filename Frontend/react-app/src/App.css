@@ -1,0 +1,164 @@
+/* App.css */
+
+/* Base styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.app-container {
+  padding: 40px 20px; /* more top/bottom padding */
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Title */
+.center-title {
+  text-align: center;
+  font-size: 2.25rem;
+  margin: 40px 0;
+  color: #2c3e50;
+}
+
+/* Common button styles */
+button {
+  padding: 14px 28px; /* more padding */
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+button:active {
+  transform: scale(0.98);
+}
+
+/* Primary button */
+.primary-btn {
+  background-color: #3498db;
+  color: white;
+  
+}
+.primary-btn:hover {
+  background-color: #2980b9;
+}
+.bottom{
+  margin:20px;
+}
+/* Success button */
+.success-btn {
+  background-color: #2ecc71;
+  color: white;
+}
+.success-btn:hover {
+  background-color: #27ae60;
+}
+
+/* Back button */
+.back-btn {
+  background-color: #95a5a6;
+  color: white;
+}
+.back-btn:hover {
+  background-color: #7f8c8d;
+}
+
+/* Alert boxes */
+.alert-box {
+  padding: 16px 24px;
+  margin: 30px 0;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+.alert-box.warning {
+  background-color: #2196f3;
+}
+.alert-box.info {
+  background-color: #ff9800;
+}
+.alert-box.danger {
+  background-color: #f44336;
+}
+
+/* Card containers */
+.profile-section,
+.target-box,
+.create-box,
+.upload-page,
+.bills-page,
+.history-page {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px; /* more padding */
+  margin: 30px 0; /* more vertical space */
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard layout */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Profile + target buttons row */
+.profile-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px; /* more horizontal gap */
+  margin: 30px 0; /* more vertical space */
+  padding: 0 10px;
+}
+
+/* Profile section */
+.profile-section {
+  flex: 1;
+}
+
+/* Target buttons */
+.target-buttons {
+  display: flex;
+  gap: 20px; /* more gap */
+}
+
+/* Action buttons row (upload/view/graph) */
+.action-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px; /* more gap */
+  margin: 40px 0; /* more top/bottom space */
+}
+
+/* Chart wrapper */
+.chart-wrapper {
+  margin: 40px 0;
+  padding: 30px;
+  background-color: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .profile-row,
+  .action-row {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .profile-section,
+  .target-buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 15px; /* more bottom margin */
+  }
+}
